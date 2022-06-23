@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        div{
+            height: 300px;
+            width: 600px;
+            background-color:rgb(236, 236, 170);
+            color:rgb(231, 31, 91);
+            border: 2px solid black;
+            margin: 5px;
+            text-align: center;
+            
+        }
+        .section1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+        body{
+            background-image: linear-gradient(rgb(136, 205, 236),rgb(0,0,0));
+        }
+        @media screen and (max-width:900px) {
+            .section1{
+                flex-direction: column;
+            }
+            div{
+                height: 200px;
+                width: 400px;
+            }
+            body{
+                background-image: linear-gradient(rgb(236, 144, 58),rgb(0,0,0));
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="section1">
+        <div class="div1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, magni exercitationem beatae at quasi
+                 similique praesentium, quia tempora consectetur reiciendis non vel asperiores quam unde animi recusandae 
+                 dignissimos rerum excepturi!
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo consectetur quia, atque nulla culpa animi impedit ipsam porro quasi.
+                  Numquam molestias, ut impedit expedita quidem culpa omnis alias nisi id?
+            </p>   
+        </div>
+        <div class="div2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, magni exercitationem beatae at quasi
+                similique praesentium, quia tempora consectetur reiciendis non vel asperiores quam unde animi recusandae 
+                dignissimos rerum excepturi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo consectetur quia, atque nulla culpa animi impedit ipsam porro quasi.
+                 Numquam molestias, ut impedit expedita quidem culpa omnis alias nisi id?
+           </p>   
+       </div>
+        </div>
+        <div class="div3">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, magni exercitationem beatae at quasi
+                similique praesentium, quia tempora consectetur reiciendis non vel asperiores quam unde animi recusandae 
+                dignissimos rerum excepturi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo consectetur quia, atque nulla culpa animi impedit ipsam porro quasi.
+                 Numquam molestias, ut impedit expedita quidem culpa omnis alias nisi id?
+           </p>   
+       </div>
+        </div>
+        <div class="div4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, magni exercitationem beatae at quasi
+                similique praesentium, quia tempora consectetur reiciendis non vel asperiores quam unde animi recusandae 
+                dignissimos rerum excepturi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo consectetur quia, atque nulla culpa animi impedit ipsam porro quasi.
+                 Numquam molestias, ut impedit expedita quidem culpa omnis alias nisi id?
+           </p>   
+       </div>
+        </div>
+        <div class="div5">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, magni exercitationem beatae at quasi
+                similique praesentium, quia tempora consectetur reiciendis non vel asperiores quam unde animi recusandae 
+                dignissimos rerum excepturi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo consectetur quia, atque nulla culpa animi impedit ipsam porro quasi.
+                 Numquam molestias, ut impedit expedita quidem culpa omnis alias nisi id?
+           </p>   
+       </div>
+        </div>
+        <div class="div6">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, magni exercitationem beatae at quasi
+                similique praesentium, quia tempora consectetur reiciendis non vel asperiores quam unde animi recusandae 
+                dignissimos rerum excepturi!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo consectetur quia, atque nulla culpa animi impedit ipsam porro quasi.
+                 Numquam molestias, ut impedit expedita quidem culpa omnis alias nisi id?
+           </p>   
+       </div>
+        </div>
+    </section>
+</body>
+</html>

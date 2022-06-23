@@ -1,0 +1,70 @@
+<!--
+    Create a web page content with either <div> tags or HTML5 semantic tags like <section>, 
+        <article>, <nave>, <footer>. Next, Create a page and named it as ID_Week5.html. Within this file 
+            create at least 1 inline style, an embedded style, and link to an external.css file. Make sure you 
+            include at least 1 property which is used in the inline, embedded and external style so a conflict is 
+            created. Also include some properties which are unique to each style. 
+     Must use different types of selectors like universal selector, adjacent sibling selector, multiple selector, 
+     psuedo classes, psuedo elements etc.,
+-->
+<html
+>
+<head>
+<title>N181099_Week5.html</title>
+<style>
+.d2 {
+padding: 20px;
+border: 6px solid rgb(106, 228, 112);
+margin: 20px;
+background: rgb(223, 186, 186);
+width: 400px;
+height: 100px;
+margin-left: 440px;
+} 
+.d1 {
+background-color: rgb(223, 75, 131);
+}
+p::first-line {
+color:rgb(226, 131, 170);
+font-variant: small-caps;
+}
+</style>
+<link rel="stylesheet" href="in.css" type="text/css">
+</head>
+<body>
+<h3><a href="index.html">Welcome and Click this Link</a></h3>
+<div class="d1" style="background-color: rgb(220, 230, 87)">
+<p style="background-color: rgb(221, 77, 132)">Create a web page content with either tags or
+HTML5 semantic tags like Next, Create a page and named it as ID_Week5.html. Within
+this file create at least 1 inline style, an embedded style, and link to an external.css file.
+Make sure you include at least 1 property which is used in the inline, embedded and
+external style so a conflict is created. Also include some properties which are unique to
+each style.
+Must use different types of selectors like universal selector, adjacent sibling selector,
+multiple selector, psuedo classes, psuedo elements etc.,</p>
+</div>
+<div class="d2">
+    <p>A CSS selector can contain more than one simple selector. Between the simple
+        selectors, we can include a combinator.
+        There are four different combinators in CSS:
+        descendant selector (space)
+        child selector (>)
+        adjacent sibling selector (+)
+        general sibling selector (~)</p>
+        </div>
+        <div class="d3">
+        <p>What are Pseudo-classes?
+        A pseudo-class is used to define a special state of an element.
+        For example, it can be used to:
+        Style an element when a user mouses over it
+        Style visited and unvisited links differently 
+        Style an element when it gets focus</p>
+</div>
+<div class="d4">
+<p style="color: crimson">What are Pseudo-Elements?
+A CSS pseudo-element is used to style specified parts of an element.
+For example, it can be used to:
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an element</p>
+</div>
+</body></html>

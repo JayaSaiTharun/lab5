@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image links</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            top: 0;
+        }
+        .image{
+            background-image:url("2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            background-position: center;
+            /* text-align: center; */
+            /* display: block; */
+        }
+        a{
+            text-align: center;
+            position: relative;
+            align-items: center;
+            width: 80px;
+            height: 30px;
+            display: block;
+            margin-top:35px ;
+            margin-left: 140px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            background-color: yellow;
+        }
+        a:active{
+            color: rgb(238, 231, 231);
+            background-color: rgb(17, 17, 17);
+        }
+        a:visited{
+            color:green;
+            /* background-color: yellow; */
+        }
+        a:link{
+            color: rgb(235, 245, 96);
+            background-color: rgb(185, 185, 174);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="image">
+        <a href="#">abcd</a>
+        <a href="#">efgh</a>
+        <a href="#">ijkl</a>
+    </div>
+</body>
+</html>

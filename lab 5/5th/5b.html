@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        body{
+            background-image: linear-gradient(rgb(241, 245, 247),rgb(0,0,0));
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+        nav{
+            position:fixed;
+            height: 80px;
+            width: 99vw;
+            background-color: rgba(247, 127, 237, 0.577);
+
+        }
+        .side{
+            float: right;
+            margin-right: 50px;
+            margin-top: 10px; 
+            */
+        }
+        .sub{
+            
+            background-color: aqua;
+            /* align-items: center; */
+        }
+        .sub a{
+            display:none;
+            padding-top:10px ;
+            width: 70px;
+            padding-left: 18px;
+        }
+        .side:hover .sub a{
+            display: block;
+        }
+    
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="side">
+  
+        <a href="#"><i class="fa fa-bars"></i></a>
+        <div class="sub">
+          <a href="#">Home</a>
+          <a href="#">School</a>
+          <a href="#">Logout</a>
+        </div>
+    </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!--
+    Use CSS transitions and transform properties to modify and animate
+Create a sample gallery that includes the following transform properties:: rotate :: scale :: skew :: translate (to offset)
+Also include transition-property values :: transition-duration :: transition-timing-function :: transition-delay
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .images{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+        img{
+            width: 350px;
+            height: 300px;
+            margin-top: 30px;
+            line-height: 75px;  
+            border-radius: 25%;
+        }
+        .img1{
+            transform: rotate(-11deg);
+        }
+        .img2{
+            transform: scaleX(1.4);
+        }
+        .img3{
+            transform: skew(10deg,20deg);
+        }
+        .img4{
+            transform: translate(25px,15px);
+        }
+        .img5{
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease;
+            transition-delay: 1s;
+        }
+        .img5:hover{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <img src="1.jpg" alt="1.jpg" class="img1">
+        <img src="2.jpg" alt="1.jpg" class="img2">
+        <img src="3.jpg" alt="1.jpg" class="img3">
+        <img src="4.jpg" alt="1.jpg" class="img4">
+        <img src="1.jpg" alt="1.jpg" class="img5">
+        <img src="2.jpg" alt="1.jpg" class="img6">
+    </div>
+</body>
+</html>
